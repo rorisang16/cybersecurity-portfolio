@@ -17,7 +17,7 @@ A high volume of failed SSH login attempts was observed targeting the user accou
 * Network: Host-only (192.168.56.0/24)
 
  **Network / IP Configuration and enablement of SSH**
- images\01-ip-config-start-ssh.png
+ ![alt text](images/01-ip-config-start-ssh.png)
 
 
 *  IP = 192.168.56.102
@@ -28,9 +28,9 @@ A high volume of failed SSH login attempts was observed targeting the user accou
 
  Created a target user for the attack:
 
+![alt text](images/02-user-creation.png)
 
 
- images\02-user-creation.png
 
 
 
@@ -42,9 +42,11 @@ A high volume of failed SSH login attempts was observed targeting the user accou
 
 A smaller wordlist was created from the rockyou dataset:
 
-images\04-wordlist.png
+![alt text](images/04-wordlist.png)
 
-images\4.1-wordlist.png
+
+
+![alt text](images/4.1-wordlist.png)
 
 
 ---
@@ -53,8 +55,8 @@ images\4.1-wordlist.png
 
 Hydra was used to perform the attack:
 
+![alt text](images/05-hydra-attack.png)
 
-images\05-hydra-attack.png
 
 Success indicated as shown above by:
 
@@ -67,15 +69,23 @@ Success indicated as shown above by:
 
 Authentication logs were monitored during the attack:
 
-images\6-logs.png
-images\7-logs.png
-images\8-logs.png
-images\9-logs.png
-images\10-logs.png
+![alt text](images/6-logs.png)
+
+
+ ![alt text](images/7-logs.png) 
+
+
+ ![alt text](images/8-logs.png) 
+
+
+ ![alt text](images/9-logs.png) 
+
+ 
+ ![alt text](images/10-logs.png)
 
 
 
-* Show repeated:
+* Shows repeated:
 
   * `Failed password`
   * same IP address
@@ -147,10 +157,10 @@ Multiple failed SSH authentication attempts were observed from a single source I
 
 **Recommended Action:**
 
-       - Investigate the source IP address
-       - Disable or reset compromised account credentials
-       - Review system activity following the successful login
-       - Block or restrict offending IP if malicious
+ - Investigate the source IP address
+ - Disable or reset compromised account credentials
+ - Review system activity following the successful login
+  - Block or restrict offending IP if malicious
 
 **Justification:**
 
