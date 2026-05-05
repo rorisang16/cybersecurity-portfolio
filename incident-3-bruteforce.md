@@ -80,7 +80,7 @@ Authentication logs were monitored during the attack:
 
  ![alt text](images/9-logs.png) 
 
- 
+
  ![alt text](images/10-logs.png)
 
 
@@ -105,6 +105,7 @@ Authentication logs were monitored during the attack:
 5. A subsequent Accepted password entry confirming successful authentication
 
 These indicators collectively point to a brute-force attack targeting weak credentials.
+
 ---
 
 #### Threat Assessment
@@ -113,11 +114,11 @@ These indicators collectively point to a brute-force attack targeting weak crede
 - Even with built-in SSH protections, persistent attempts can result in compromise
 - Successful authentication grants the attacker direct system access
 
-Impact:
+## Impact:
 
-Unauthorised system access
-Potential lateral movement within the network
-Risk of data exposure or system manipulation
+- Unauthorised system access
+- Potential lateral movement within the network
+- Risk of data exposure or system manipulation
 ---
 
 #### Evidence Reviewed
