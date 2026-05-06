@@ -6,7 +6,8 @@ An SSH brute-force attack was simulated against a Linux host to replicate a comm
 
 #### Incident Summary
 
-A high volume of failed SSH login attempts was observed targeting the user account adminuser. The activity originated from a single source IP and occurred within a short time window. The attack resulted in a successful login after the correct password was identified.
+A high volume of failed SSH login attempts was observed targeting the user account adminuser. The activity originated from a single source IP and occurred 
+ within a short time window. The attack resulted in a successful login after the correct password was identified.
 
 ---
 
