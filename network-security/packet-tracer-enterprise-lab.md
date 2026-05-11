@@ -36,7 +36,7 @@ The lab includes:
 
 Configured as an employee workstation in VLAN 10.
 
-![EMP-WS01 Configuration](images/emp-ws01-ip-config.png)
+ ![EMP-WS01 Configuration](images/EMP-WS01_ip_config.png)
 
 ---
 
@@ -44,7 +44,7 @@ Configured as an employee workstation in VLAN 10.
 
 Configured as a second workstation to simulate another internal user/attacker.
 
-![ATT-WS01 Configuration](images/att-ws01-ip-config.png)
+![ATT-WS01 Configuration](images/ATT-WS01_ip_config.png)
 
 ---
 
@@ -52,7 +52,7 @@ Configured as a second workstation to simulate another internal user/attacker.
 
 Configured inside the server VLAN.
 
-![APP-SRV01 Configuration](images/app-srv01-ip-config.png)
+ ![APP-SRV01 Configuration](images/APP_SRV01_ip_config.png)
 
 ---
 
